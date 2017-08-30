@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="co.edu.ucc.formulario.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:src="@drawable/contacto"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txt_nombres_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/nombres"
+                android:inputType="none"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txt_apellidos_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/apellidos"
+                android:inputType="none"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txt_direccion_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/direccion"
+                android:inputType="none"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txt_email_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="none"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txt_telefono_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/telefono"
+                android:inputType="none"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txt_celular_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/celular"
+                android:inputType="none"
+                android:enabled="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

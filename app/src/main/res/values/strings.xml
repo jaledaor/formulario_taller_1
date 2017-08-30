@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="direccion">Direccion Residencia</string>
+    <string name="email">Correo Electronico</string>
+    <string name="telefono">Telefono Fijo</string>
+    <string name="celular">Numero Celular</string>
+    <string name="enviar_datos">Enviar Datos</string>
+</resources>
